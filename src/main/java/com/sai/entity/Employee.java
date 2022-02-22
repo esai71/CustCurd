@@ -15,9 +15,7 @@ public class Employee {
 		return empNo;
 	}
 
-	public void setEmpNo(Integer empNo) {
-		this.empNo = empNo;
-	}
+	
 
 	private String empName;
 	
