@@ -11,6 +11,14 @@ public class Employee {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private Integer empNo;
 	
+	public Integer getEmpNo() {
+		return empNo;
+	}
+
+	public void setEmpNo(Integer empNo) {
+		this.empNo = empNo;
+	}
+
 	private String empName;
 	
 	private String empAddress;
